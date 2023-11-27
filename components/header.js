@@ -46,16 +46,16 @@ const Header = () => {
       )}
       <div className="nav-link">
         <ul>
-          <Link to="/instamart">
+          {/* <Link to="/instamart">
             <li className="nav-items">InstaMart</li>
-          </Link>
-          <Link to="/offer">
+          </Link> */}
+          {/* <Link to="/offer">
             <li className="nav-items">Offers</li>
           </Link>
           <Link to="/help">
             <li className="nav-items">Help</li>
-          </Link>
-          {/* <li className="nav-items">Sign In</li> */}
+          </Link> */}
+         
           <Link to="/cart">
             <li className="nav-items">
               Cart [<span style={{ color: "aliceblue" }}>{cartCount}</span>]{" "}
@@ -89,7 +89,9 @@ const Header = () => {
                   ●
                 </span>
               </button>
+              
             )}
+             <li className="nav-items">Sign In</li>
           </li>
         </ul>
       </div>

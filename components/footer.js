@@ -1,6 +1,6 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const companyName = "Reactaurant By Chhavi";
+  const companyName = "Welcome Foods By Martin";
 
   return (
     <footer className="footer">

@@ -19,7 +19,7 @@
     "test": "jest",
     "build": "parcel build index.html"
   },
-  "author": "Chhavi Rana",
+  "author": "Martin Manoj",
   "license": "ISC",
   "description": ""
 }

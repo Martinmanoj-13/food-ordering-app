@@ -24,7 +24,7 @@ const Instamart = () => {
         <div className="active-pane">
           <h3 className="pane-title">{panes[currentPaneIndex]}</h3>
           <p className="pane-description">
-            Delivered in minutes, from the house of ❤️ Chhavi.
+            Delivered in minutes, from the house of ❤️ Martin.
           </p>
         </div>
       </div>
